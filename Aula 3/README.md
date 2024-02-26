@@ -1,6 +1,22 @@
-# Print e Saída de Dados em R com Template Strings
+# Entrada e saída de dados no Terminal
 
-## O que são Template Strings?
+## Entrada de dados
+
+## Inserir dados via terminal em um programa R
+
+**1. Usando a função `readline()`:**
+
+A função `readline()` lê uma única linha do terminal e retorna-a como uma string.
+
+**Exemplo:**
+
+```R
+# Ler uma string do terminal
+nome <- readline(prompt = "Digite seu nome: ")
+```
+## Saída de dados
+
+## Print() com template Strings
 
 Template strings são strings literais que podem conter expressões R. As expressões R são avaliadas e os resultados são inseridos na string.
 
